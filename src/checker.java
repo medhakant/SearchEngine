@@ -4,17 +4,17 @@ import java.io.IOException;
 
 public class checker
 {
-	public static void main ( String args []) throws Exception
+	public static void main ( String args [])
 	{
 		BufferedReader br = null;
-		SearchEngine google = new SearchEngine();
+		SearchEngine r = new SearchEngine();
 
 		try {
 			String actionString;
 			br = new BufferedReader(new FileReader("D:\\Documents\\Java Projects\\Search Engine\\src\\actions.txt"));
 
 			while ((actionString = br.readLine()) != null) {
-				google.performAction(actionString);
+				r.performAction(actionString);
 			}
 		} catch (IOException e) {
 			e.printStackTrace();

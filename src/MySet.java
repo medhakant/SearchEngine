@@ -13,7 +13,7 @@ public class MySet<X> {
         MyLinkedList.Node<X> n =llist.head;
         while (n != null)
         {
-            if(n.data==e)
+            if(n.data.equals(e))
                 return true;
             n=n.next;
         }
@@ -70,28 +70,28 @@ public class MySet<X> {
         return i;
     }
 
-//    public static void main(String[] args)
-//    {
-//
-//        MySet<Integer> m=new MySet();
-//        m.addElement(5);
-//        m.addElement(6);
-//        m.addElement(7);
-//        m.addElement(5);
-//
-//        MySet<Integer> a = new MySet();
+    public static void main(String[] args)
+    {
+
+        MySet<Integer> m=new MySet();
+        m.addElement(5);
+        m.addElement(6);
+        m.addElement(7);
+        m.addElement(5);
+
+        MySet<Integer> a = new MySet();
 //        a.addElement(1);
 //        a.addElement(2);
 //        a.addElement(3);
 //        a.addElement(5);
-//
-//        MyLinkedList.Node n = m.union(a).llist.head;
-//        while (n!=null){
-//            System.out.println(n.data);
-//            n=n.next;
-//        }
-//
-//        return ;
-//    }
+
+        MyLinkedList.Node n = m.intersection(a).llist.head;
+        while (n!=null){
+            System.out.println(n.data);
+            n=n.next;
+        }
+
+        return ;
+    }
 
 }

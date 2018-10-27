@@ -14,7 +14,7 @@ public class SearchResult implements Comparable<SearchResult> {
         return relevance;
     }
     //Gives the ordering between the current object and the otherObject.
-    @Override public int compareTo(SearchResult otherObject){
+    public int compareTo(SearchResult otherObject){
         int result = Float.compare(this.relevance,otherObject.relevance);
         return result;
     }

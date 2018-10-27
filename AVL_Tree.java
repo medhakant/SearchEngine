@@ -1,4 +1,3 @@
-import javax.swing.tree.TreeCellEditor;
 import java.lang.Math;
 public class AVL_Tree{
     private MySet<Position> wordEntriesSet = new MySet<>();
@@ -57,29 +56,26 @@ public class AVL_Tree{
     }
 
     public MyLinkedList.TreeNode<Position> InorderSuccessor(MyLinkedList.TreeNode<Position> findSuccessorFor){
-        if(findSuccessorFor!=null){
-            if(findSuccessorFor.right!=null){
-                MyLinkedList.TreeNode<Position> successor = findSuccessorFor.right;
-                while (successor.left!=null){
-                    successor=successor.left;
-                }
-                return successor;
+        if(findSuccessorFor.right!=null){
+            MyLinkedList.TreeNode<Position> successor = findSuccessorFor.right;
+            while (successor.left!=null){
+                successor=successor.left;
             }
-            else{
-                MyLinkedList.TreeNode<Position> successor = findSuccessorFor;
-                while (successor!=null){
-                    if (successor.parent!=null){
-                        if(successor.parent.left.equals(successor))
-                            break;
-                    }
-                    successor=successor.parent;
+            return successor;
+        }
+        else{
+            MyLinkedList.TreeNode<Position> successor = findSuccessorFor;
+            while (successor!=null){
+                if (successor.parent!=null){
+                    if(successor.parent.left.equals(successor))
+                        break;
                 }
-                if(successor!=null)
-                    successor=successor.parent;
-                return successor;
+                successor=successor.parent;
             }
-        }else
-            return null;
+            if(successor!=null)
+                successor=successor.parent;
+            return successor;
+        }
     }
 
     public void UpdateHeight(MyLinkedList.TreeNode<Position> NodeWithLatestAdd){
@@ -135,23 +131,6 @@ public class AVL_Tree{
             n=n.parent;
         }
         return n;
-    }
-
-    /* Functions to count number of nodes */
-    public int countNodes() {
-        return countNodes(root);
-    }
-
-    private int countNodes(MyLinkedList.TreeNode<Position> r)
-    {
-        if (r == null)
-            return 0;
-        else {
-            int l = 1;
-            l += countNodes(r.left);
-            l += countNodes(r.right);
-            return l;
-        }
     }
 
     void addNode(Position data){
@@ -227,23 +206,19 @@ public class AVL_Tree{
     {
 //        System.out.println("rotateWithLeftChild");
         MyLinkedList.TreeNode<Position> k1 = k2.left;
-        if(k1!=null){
-            if(k2.parent!=null)
-                k1.parent = k2.parent;
-            k2.parent =k1;
-            if(k1.right!=null){
-                k2.left=k1.right;
-                k1.right.parent = k2;
-            }
-            else
-                k2.left = null;
-            k1.right = k2;
-            Height(k2);
-            Height(k1);
-            return k1;
+        if(k2.parent!=null)
+            k1.parent = k2.parent;
+        k2.parent =k1;
+        if(k1.right!=null){
+            k2.left=k1.right;
+            k1.right.parent = k2;
         }
         else
-            return k2;
+            k2.left = null;
+        k1.right = k2;
+        Height(k2);
+        Height(k1);
+        return k1;
     }
 
     /* Rotate binary tree node with right child */
@@ -251,23 +226,19 @@ public class AVL_Tree{
     {
 //        System.out.println("rotateWithRightChild");
         MyLinkedList.TreeNode<Position> k2 = k1.right;
-        if(k2!=null){
-            if(k1.parent!=null)
-                k2.parent = k1.parent;
-            k1.parent = k2;
-            if(k2.left!=null){
-                k1.right = k2.left;
-                k2.left.parent = k1;
-            }
-            else
-                k1.right = null;
-            k2.left = k1;
-            Height(k1);
-            Height(k2);
-            return k2;
+        if(k1.parent!=null)
+            k2.parent = k1.parent;
+        k1.parent = k2;
+        if(k2.left!=null){
+            k1.right = k2.left;
+            k2.left.parent = k1;
         }
         else
-            return k1;
+            k1.right = null;
+        k2.left = k1;
+        Height(k1);
+        Height(k2);
+        return k2;
     }
     /**
      * Double rotate binary tree node: first left child
@@ -310,27 +281,27 @@ public class AVL_Tree{
         return wordEntriesSet.llist;
     }
 
-//    public static void main(String[] args){
-//        AVL_Tree x = new AVL_Tree();
-//        PageEntry y = new PageEntry("stack_datastructure_wiki");
-//        Position a= new Position(y,56);
-//        Position b= new Position(y,45);
-//        Position c= new Position(y,36);
-//        Position d= new Position(y,27);
-//        Position e= new Position(y,195);
-//        Position f= new Position(y,212);
-//        Position g= new Position(y,242);
-//        Position h= new Position(y,242);
-//        x.addNode(a);
-//        x.addNode(b);
-//        x.addNode(c);
-//        x.addNode(d);
-//        x.addNode(e);
-//        x.addNode(f);
-//        x.addNode(g);
-//        x.addNode(h);
-//        x.inorder();
-//        System.out.println(x.InorderSuccessor(x.NodeWithKey(56)).data.wi);
-//
-//    }
+    public static void main(String[] args){
+        AVL_Tree x = new AVL_Tree();
+        PageEntry y = new PageEntry("stack_datastructure_wiki");
+        Position a= new Position(y,56);
+        Position b= new Position(y,45);
+        Position c= new Position(y,36);
+        Position d= new Position(y,27);
+        Position e= new Position(y,195);
+        Position f= new Position(y,212);
+        Position g= new Position(y,242);
+        Position h= new Position(y,242);
+        x.addNode(a);
+        x.addNode(b);
+        x.addNode(c);
+        x.addNode(d);
+        x.addNode(e);
+        x.addNode(f);
+        x.addNode(g);
+        x.addNode(h);
+        x.inorder();
+        System.out.println(x.InorderSuccessor(x.NodeWithKey(242)).data.wi);
+
+    }
 }

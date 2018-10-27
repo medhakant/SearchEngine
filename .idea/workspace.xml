@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2acc4c9c-d74d-414a-b268-94be85816023" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVL_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVL_TreeGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/AVL_Tree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/InvertedPageIndex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/MyHashTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/MyLinkedList$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/MyLinkedList$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/MyLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/MySet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/MySort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/PageEntry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/PageIndex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/Position.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/SearchEngine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/SearchResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/WordEntry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/actions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/checker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/webpages/auckland_stack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/webpages/cmu_stack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/webpages/geeks_quiz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/webpages/references" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/webpages/stack_cprogramming" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/webpages/stack_datastructure_wiki" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/webpages/stack_oracle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/webpages/stacklighting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/webpages/stackmagazine" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/webpages/stackoverflow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/webpages/stacks_and_queues" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Search Engine/webpages/studytonight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webpages/auckland_stack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webpages/cmu_stack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webpages/geeks_quiz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webpages/stacks_and_queues" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webpages/studytonight" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AVL_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AVL_Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InvertedPageIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InvertedPageIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InvertedPageIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyHashTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyHashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyHashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MySet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MySet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MySort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PageEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PageEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PageEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PageIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WordEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WordEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WordEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/answers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Search Engine/answers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webpages/._references" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webpages/._stack_cprogramming" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webpages/._stack_datastructure_wiki" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webpages/._stack_oracle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webpages/._stacklighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webpages/._stackmagazine" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webpages/._stackoverflow" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="831591236">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.28" value="2" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.58" value="1" />
+          <entry key="project.opened" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="44" />
+          <entry key="references" value="2" />
+          <entry key="stack_cprogramming" value="6" />
+          <entry key="stack_datastructure_wiki" value="4" />
+          <entry key="stacklighting" value="1" />
+          <entry key="stackmagazine" value="1" />
+          <entry key="stackoverflow" value="1" />
+          <entry key="txt" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="44" />
+          <entry key="PLAIN_TEXT" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="14711" />
+          <entry key="txt" value="100" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="14711" />
+          <entry key="PLAIN_TEXT" value="100" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AVL_Tree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="319" column="42" lean-forward="true" selection-start-line="319" selection-start-column="42" selection-end-line="319" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#IsEmpty#0;class#AVL_Tree#0" />
+                <element signature="method#IsMemberSubTree#0;class#AVL_Tree#0" />
+                <element signature="method#IsMember#0;class#AVL_Tree#0" />
+                <element signature="method#UpdateHeight#0;class#AVL_Tree#0" />
+                <element signature="method#Height#0;class#AVL_Tree#0" />
+                <element signature="method#ProbableParentFromSubtree#0;class#AVL_Tree#0" />
+                <element signature="e#3753#3754#0" expanded="true" />
+                <element signature="e#3792#3793#0" expanded="true" />
+                <element signature="method#inorder#0;class#AVL_Tree#0" />
+                <element signature="e#10053#10054#0" expanded="true" />
+                <element signature="e#10096#10097#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InvertedPageIndex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="177" column="5" lean-forward="true" selection-start-line="177" selection-start-column="5" selection-end-line="177" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MySort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SearchResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+              <folding>
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PageEntry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="90" column="2" selection-start-line="90" selection-start-column="2" selection-end-line="90" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PageIndex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WordEntry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SearchEngine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#10093#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/checker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/actions.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>wordList</find>
+      <find>node.data</find>
+      <find>wi</find>
+      <find>inorder</find>
+      <find>free</find>
+      <find>stack</find>
+      <find>stackover</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/linkedList.java" />
+        <option value="$PROJECT_DIR$/src/mySet.java" />
+        <option value="$PROJECT_DIR$/src/test.java" />
+        <option value="$PROJECT_DIR$/src/PageIndex.java" />
+        <option value="$PROJECT_DIR$/src/MySet.java" />
+        <option value="$PROJECT_DIR$/src/checker.java" />
+        <option value="$PROJECT_DIR$/src/WordEntry.java" />
+        <option value="$PROJECT_DIR$/src/MyHashTable.java" />
+        <option value="$PROJECT_DIR$/src/SearchResult.java" />
+        <option value="$PROJECT_DIR$/src/Position.java" />
+        <option value="$PROJECT_DIR$/src/MyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/actions.txt" />
+        <option value="$PROJECT_DIR$/src/PageEntry.java" />
+        <option value="$PROJECT_DIR$/src/MySort.java" />
+        <option value="$PROJECT_DIR$/src/AVL_Tree.java" />
+        <option value="$PROJECT_DIR$/src/InvertedPageIndex.java" />
+        <option value="$PROJECT_DIR$/src/SearchEngine.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Search Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Search Engine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Search Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Search Engine" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Search Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Search Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Search Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Search Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="webpages" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540663824641" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Java Projects\Search Engine\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.checker">
+    <configuration name="AVL_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AVL_Tree" />
+      <module name="Search Engine" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvertedPageIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InvertedPageIndex" />
+      <module name="Search Engine" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageEntry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PageEntry" />
+      <module name="Search Engine" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchEngine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SearchEngine" />
+      <module name="Search Engine" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="checker" />
+      <module name="Search Engine" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SearchEngine" />
+      <item itemvalue="Application.AVL_Tree" />
+      <item itemvalue="Application.PageEntry" />
+      <item itemvalue="Application.InvertedPageIndex" />
+      <item itemvalue="Application.checker" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.checker" />
+        <item itemvalue="Application.SearchEngine" />
+        <item itemvalue="Application.AVL_Tree" />
+        <item itemvalue="Application.InvertedPageIndex" />
+        <item itemvalue="Application.PageEntry" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2acc4c9c-d74d-414a-b268-94be85816023" name="Default Changelist" comment="" />
+      <created>1538985849391</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538985849391</updated>
+      <workItem from="1538985881897" duration="4735000" />
+      <workItem from="1539187457468" duration="2263000" />
+      <workItem from="1539272735264" duration="8053000" />
+      <workItem from="1539281352497" duration="10916000" />
+      <workItem from="1539336666111" duration="8619000" />
+      <workItem from="1539439722798" duration="48000" />
+      <workItem from="1539449766234" duration="598000" />
+      <workItem from="1540292824025" duration="41405000" />
+      <workItem from="1540595220074" duration="4449000" />
+      <workItem from="1540623204950" duration="13082000" />
+      <workItem from="1540638202363" duration="14054000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="108222000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3544776" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38069415" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286334" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17110874" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30151844" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286334" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/stackmagazine" />
+    <entry file="file://$PROJECT_DIR$/src/stack_cprogramming" />
+    <entry file="file://$PROJECT_DIR$/src/test.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/ref/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="163" column="31" selection-start-line="163" selection-start-column="31" selection-end-line="163" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/answers.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="681" selection-start-line="681" selection-end-line="681" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MySet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-925">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyHashTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webpages/stack_datastructure_wiki">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webpages/references">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webpages/stack_cprogramming">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webpages/stackoverflow">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webpages/stacklighting">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/checker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PageIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PageEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="90" column="2" selection-start-line="90" selection-start-column="2" selection-end-line="90" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SearchResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MySort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InvertedPageIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="177" column="5" lean-forward="true" selection-start-line="177" selection-start-column="5" selection-end-line="177" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AVL_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="319" column="42" lean-forward="true" selection-start-line="319" selection-start-column="42" selection-end-line="319" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#IsEmpty#0;class#AVL_Tree#0" />
+            <element signature="method#IsMemberSubTree#0;class#AVL_Tree#0" />
+            <element signature="method#IsMember#0;class#AVL_Tree#0" />
+            <element signature="method#UpdateHeight#0;class#AVL_Tree#0" />
+            <element signature="method#Height#0;class#AVL_Tree#0" />
+            <element signature="method#ProbableParentFromSubtree#0;class#AVL_Tree#0" />
+            <element signature="e#3753#3754#0" expanded="true" />
+            <element signature="e#3792#3793#0" expanded="true" />
+            <element signature="method#inorder#0;class#AVL_Tree#0" />
+            <element signature="e#10053#10054#0" expanded="true" />
+            <element signature="e#10096#10097#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SearchEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#10093#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Search Engine</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -2,6 +2,7 @@ public class Position {
 
     public PageEntry pe;
     public int wi;
+    public String word;
 
     //Constructor method.
     Position(PageEntry p, int wordIndex){

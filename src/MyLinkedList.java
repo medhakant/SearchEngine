@@ -15,12 +15,16 @@ public class MyLinkedList<X> {
     static class TreeNode<X>{ //linked list Tree node
         TreeNode<X> left;
         TreeNode<X> right;
+        TreeNode<X> parent;
+        int NodeHeight;
         X data;
 
         TreeNode(X d){ //constructor class
             this.data = d;
             this.left = null;
             this.right = null;
+            this.parent = null;
+            this.NodeHeight = 0;
         }
     }
 

@@ -26,7 +26,7 @@ public class MyHashTable {
                 chainL = chainL.next;
             }
             if(chainL!=null && chainL.data.word.equals(w.word)){
-                chainL.data.addPositions(w.wordPosition.llist);
+                chainL.data.addPositions(w.wordPosition.AllWordPositions());
             }
             else{
                 MyLinkedList.Node<WordEntry> nrear =hashTable[getHashIndex(word)];
